@@ -42,6 +42,7 @@ $wynik_nauczyciele = mysqli_query($conn, $zapytanie_nauczyciele);
 <body>
     
     <header>
+        <img src="logo.png" alt="logo ZSŁ" class="logo">
         <h1>SALA <?php echo $sala; ?></h1>
         <h2><?php echo $przedmioty; ?></h2>
     </header>
