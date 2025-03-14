@@ -1,0 +1,38 @@
+CREATE TABLE Nauczyciele (
+    sala INT,
+    imie VARCHAR(50),
+    nazwisko VARCHAR(50),
+    przedmiot VARCHAR(100),
+    opis TEXT
+);
+
+INSERT INTO uczniowie (sala, imie, nazwisko, przedmiot, opis) VALUES
+(41, 'Izabela', 'Łączkowska', 'J. Angielski', 'Pilnie się uczyć, mieć zeszyt i książkę, być uprzejmym.'),
+(42, 'Ilona', 'Łukasik', 'J. Angielski', 'Nie korzystać z telefonu, bądź miły i uprzejmy, pracuj systematycznie na lekcji, nie niszcz sali, nie śpij na lekcji.'),
+(43, 'Anna', 'Nadolska', 'J. Angielski', 'Nie rozmawiać na lekcji, pilnie się uczyć, nie ściągać.'),
+(44, 'Klaudia', 'Wyrzyk', 'J. Angielski', '--'),
+(47, 'Ewa', 'Machnio', 'J. Angielski', 'Nie robić sobie zaległości.'),
+(52, 'Anna', 'Bądkowska', 'J. Niemiecki', 'Polubić niemiecki, interesować się tematem.'),
+(58, 'Adam', 'Bojanowski', 'PSO, PSK, rysunek techniczny', 'Uczyć się, pracować.'),
+(59, 'Dagmara', 'Sobkowiak', 'J. Niemiecki', 'Nie gadać, chować telefony i nie mówić "du hast".'),
+(110, 'Krzysztof', 'Wilkowski', 'Historia, WOS, J. Angielski', 'Zmieniać buty, mieć wszystkie oceny, prowadzić zeszyt z historii.'),
+(112, 'Piotr', 'Kopka', 'Historia, WOS', 'Dbać o frekwencję i uczyć się.'),
+(115, 'Dorota', 'Strupiechowska', 'WIAI, Informatyka', 'Przestrzegać regulaminu, nie pić, nie jeść, regularnie się uczyć.'),
+(119, 'Henryk', 'Giergielewicz', 'Geografia, LSK', 'Uczyć się.'),
+(121, 'Ryszard', 'Filipowicz', 'EDB', 'Żeby się uczyli, mieć podręcznik.'),
+(135, NULL, NULL, NULL, 'Nauczyciel nie współpracował.'),
+(136, 'Izabella', 'Czerwiec', 'Matematyka', 'Pracować systematycznie.'),
+(137, 'Barbara', 'Tumanowicz', 'Matematyka', 'Uczyć się, w razie problemu nie bać się i pytać.'),
+(139, 'Elżbieta', 'Wygnalska', 'Matematyka', 'Uważać na lekcjach oraz pracować.'),
+(142, 'Krzysztof', 'Kopiec', 'Podstawy przedsiębiorczości', 'Pracować zgodnie z zasadami, prowadzić zeszyt, być przygotowanym do lekcji i przychodzić z dobrym nastawieniem, nie spać na lekcji.'),
+(149, 'Marcin', 'Marczewski', 'Matematyka, pracownia elektroniczna, systemy transmisji danych', 'Uczyć się, regularnie chodzić na lekcje, nie robić sobie zaległości.'),
+(150, 'Michał', 'Mróz', 'Systemy operacyjne, sieci rozległe', 'Samokształcenie jest najważniejsze, nadążać za technologią.'),
+(212, 'Joanna', 'Wilkowska', 'Informatyka, fizyka', '--'),
+(213, 'Grzegorz', 'Wyszomirski', 'PA, PAM', 'Pracować regularnie, zastanowić się, czy na pewno się to lubi.'),
+(215, 'Marta', 'Grzeszczak', 'Informatyka, PAIPO, PO, SBD, PBD', 'Systematyczna nauka (nie ma przelewów).'),
+(217, 'Grzegorz', 'Kosmala', 'PSO, PUTK, PSK, informatyka', 'Być samodzielnym, mieć pasję w kierunku.'),
+(219, 'Tomasz', 'Dudkowski', 'Informatyka, PSI, rysunek techniczny, WIAI', 'Zapamiętać loginy do EduWarszawy i domeny szkolnej, nauczyć się pisać "tcionka".'),
+(221, 'Małgorzata', 'Rosińska', 'PRAI, PSI, PAI', 'Pracować sumiennie i nie ściągać z internetu, współpracować z kolegami.'),
+(230, 'Monika', 'Chałowska', 'J. Polski, Antropologia Kulturowa', 'Przychodzić na lekcje, kochać język polski, odnajdywać przyjemność w rozwijaniu się.'),
+(237, 'Dagmara', 'Wicińska', 'J. Polski', 'Nie bać się wyrażania własnej opinii, być otwartym na rozmowy, czytać teksty obowiązkowe, odnosić się z szacunkiem do wszystkich.'),
+(240, 'Michał', 'Polak', 'PLSK, PTST, uruchamianie i konfigurowanie sieci komutacyjnych, pracownia instalacji telekomunikacyjnych', 'Uczyć się, mieć szacunek.');
